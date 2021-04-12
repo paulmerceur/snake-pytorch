@@ -33,8 +33,6 @@ class SnakeGame:
         # init display
         self.display = pygame.display.set_mode((self.w, self.h))
         icon = pygame.image.load('snake.png')
-        pygame.display.set_icon(icon)
-        pygame.display.set_caption('Snake')
         self.clock = pygame.time.Clock()
         
         # init game state
